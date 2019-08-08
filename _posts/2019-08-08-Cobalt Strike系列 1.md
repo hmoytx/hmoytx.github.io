@@ -64,7 +64,7 @@ chmod +x teamserver
 ./teamserver host  password  //启动服务
 nohup ./teamserver host  password  &  //或者用nohup挂起运行
 ```
-![启动服务](/img/start_service.png)
+![启动服务](/img/star_service.png)
 
 ## 客户端连接
 启动客户端。
