@@ -53,7 +53,7 @@ tags:
 主要是利用web代理，劫持转发目标浏览器进程数据到指定的端口上，然后我们再从该端口访问，相当于拿着目标浏览器中的数据进行访问。会话cookie劫持，登录他人帐号都是可以的
 但是暂时只是在IE上好使，也不稳定，而且会导致浏览器卡顿。
 使用时要先确定开启了IE进程。然后ps查看pid。执行browserpivot PID x86
-![browser](/img/broser.png)
+![browser](/img/broswer.png)
 配置好浏览器代理后访问网站即可。
 ![browser1](/img/broser1.png)
 ## 代理有关
@@ -61,4 +61,4 @@ tags:
 停止的话 就是rportfwd stop 389 。
 图没有，不配了，这是很基本的用法，后面详细将内网的时候会用其他方式来做讲解。
 算了随便盗个图吧。
-![rdpfwd](/img/rdpfwd.png)
+![rdpfwd](/img/rdpforword.png)
