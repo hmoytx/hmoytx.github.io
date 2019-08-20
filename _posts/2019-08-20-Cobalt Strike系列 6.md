@@ -49,11 +49,11 @@ tags:
 
 CS中需要手动添加插件，用来权限维持。  
 需要先下载cna脚本，我是在春秋上下的，可以自己去取。  
-[add_pug](/img/add_pug.png)   
+![add_pug](/img/add_pug.png)   
 然后load脚本。  
-[add_pug2](/img/add_pug2.png)   
-再右键beacon就会发现，多了persist选项
-[persist](/img/persist.png)   
+![add_pug2](/img/add_pug2.png)   
+再右键beacon就会发现，多了persist选项。  
+![persist](/img/persist.png)   
 简单介绍下几个模块的用法。  
 前面几个都是基于dll劫持的。  
 sticky keys 是shift后门。
