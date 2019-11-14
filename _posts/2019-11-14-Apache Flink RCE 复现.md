@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:    pache Flink RCE 复现
-subtitle:   pache Flink RCE 复现
+title:    Apache Flink RCE 复现
+subtitle:   Apache Flink RCE 复现
 date:       2019-11-14
 author:     hmoytx
 header-img: img/bg_02.jpg
