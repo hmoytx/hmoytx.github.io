@@ -34,9 +34,9 @@ ExternalC2 是 Cobalt Strike 引入的一种规范（或者框架），黑客可
 ```
 然后先运行一次 external c2.py脚本（管道名为test），生成一个payload.bin文件。上传至受害者服务器。  
 然后编译RemoteThreadInject工具，上传以后，先运行一个notepad，再运行RemoteThreadInject，运行成功会回显notepad的pid，此时payload已经被注入了这个进程，开启一个管道test（可以用pipelist查看），也就是上面图中的smb beacon。  
-![200110_2](/img/200110_testpipe.png)  
 ![200110_7](/img/200110_loadpayload.png)  
 pipelist查看管道。  
+![200110_2](/img/200110_testpipe.png)  
 然后编译client，放上去运行。  
 ![200110_3](/img/200110_startclient.png)  
 查看管道可以看到多了两个管道，一个read，一个write。  
