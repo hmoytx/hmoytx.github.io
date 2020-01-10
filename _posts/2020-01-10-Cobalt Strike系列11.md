@@ -51,4 +51,9 @@ pipelist查看管道。
 ## 注意  
 远程注入的工具可能会在win7下不能运行，原作者测试的时候是在win10测试，我也是在win10测试，需要在win7上运行还要修改一下代码。  
 这里用到的是命名管道的方式来完成通信，在尝试修改web脚本的时候发现不是那么好写。  
-准备尝试将通信的管道换成一个文件，虽然会有文件落地，但是至少web脚本操作文件会好写很多？（先鸽着）    
+准备尝试将通信的管道换成一个文件，虽然会有文件落地，但是至少web脚本操作文件会好写很多？（先鸽着）  
+
+## 参考
+[https://mp.weixin.qq.com/s/q3QZ41qwFcKaIL7qb6q1fQ](https://mp.weixin.qq.com/s/q3QZ41qwFcKaIL7qb6q1fQ)  
+[https://blog.xpnsec.com/exploring-cobalt-strikes-externalc2-framework/](https://blog.xpnsec.com/exploring-cobalt-strikes-externalc2-framework/)  
+
