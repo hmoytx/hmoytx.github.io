@@ -1,11 +1,11 @@
 # Site settings
-title: hmoytx Blog
-SEOTitle: HMO的博客 | hmoytx Blog
+title: AY Blog
+SEOTitle: AY的博客 | AY Blog
 header-img: img/post-bg-hacker.jpg
 email: 794515670ytx@gmail.com
-description: "Love Gakki."
-keyword: "hmoytx, hmoytx Blog, gakki, python, hack"
-url: "https://hmoytx.github.io"          # your host, for absolute URL
+description: "Gakkkkkkiiiii."
+keyword: "C0bra, AY Blog, gakki, python, hack"
+url: "https://www.c0bra.xyz"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository 
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -18,7 +18,7 @@ sidebar-avatar: /img/a17a3616gw1erwwita6nrj21hc0xcq97.jpg      # use absolute UR
 
 
 # SNS settings
-RSS: false
+RSS: true
 zhihu_username:     hmo
 github_username:    hmoytx
 twitter_username:   faizkaix
@@ -75,8 +75,8 @@ gitalk:
 #ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-#ga_domain: auto            # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-156348727-1'            # Format: UA-xxxxxx-xx
+ga_domain: c0bra.xyz            # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
