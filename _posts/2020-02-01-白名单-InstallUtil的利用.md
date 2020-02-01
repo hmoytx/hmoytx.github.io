@@ -20,7 +20,7 @@ InstallUtil.exe路径，我测试环境是win7，win10下内存会报错不知�
 常用参数就4个：   
 - /h 帮助  
 - /LogFile=[filename] 指定在其中记录安装进度的日志文件的名称。 如果省略 /LogFile 选项，则会默认创建名为 程序名.InstallLog 的日志文件，里面包含了一些详细信息  
-- /LogToConsole={true|false} 是否将日志信息输出到控制台
+- /LogToConsole={true or false} 是否将日志信息输出到控制台
 - /u[ninstall] 卸载指定程序集  
 
 其他详细的可以看官方文档：[https://docs.microsoft.com/zh-cn/dotnet/framework/tools/installutil-exe-installer-tool?redirectedfrom=MSDN](https://docs.microsoft.com/zh-cn/dotnet/framework/tools/installutil-exe-installer-tool?redirectedfrom=MSDN)。  
