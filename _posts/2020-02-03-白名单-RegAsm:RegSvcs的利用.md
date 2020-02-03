@@ -22,7 +22,7 @@ RegAsm读取程序集中的元数据，并将所需项添加到注册表中。�
 - 配置以编程方式添加到类的服务。
 
 因为同样是没有添加到PATH中，需要给上绝对路径。  
-win7为例：***C:\Windows\Microsoft.NET\Framework\v4.0.30319***
+win7为例：***C:\Windows\Microsoft.NET\Framework\v4.0.30319***  
 具体的一些介绍信息可以查看官方手册。  
 [https://docs.microsoft.com/zh-cn/dotnet/framework/tools/regasm-exe-assembly-registration-tool](https://docs.microsoft.com/zh-cn/dotnet/framework/tools/regasm-exe-assembly-registration-tool)   
 [https://docs.microsoft.com/zh-cn/dotnet/framework/tools/regsvcs-exe-net-services-installation-tool](https://docs.microsoft.com/zh-cn/dotnet/framework/tools/regsvcs-exe-net-services-installation-tool)   
