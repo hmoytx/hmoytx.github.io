@@ -68,14 +68,14 @@ pReserved)
 C:\>netsh
 netsh>add helper path\xx.dll
 ```
-![191128_1](/img/addhelper.png)  
+![191128_1](/img/191128_addhelper.png)  
 添加后，会在注册表中多一项：   
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NetSh
 ```
 ![191128_2](/img/191128_reg.png)  
 然后只要每次运行netsh，就会上线。  
-![191128_3](/img/beacon.png)  
+![191128_3](/img/191128_beacon.png)  
 不过默认情况下，netsh不是自启动的需要在注册表中创建一下，以保证持久性。  
 ```
 reg add "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run" /v
