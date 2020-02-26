@@ -130,7 +130,7 @@ namespace LsassDump
 }
 ```
 win10下测试没有问题，但是跑到win7上不管什么用户去执行都不行，会抛出内存访问被拒绝的异常，导个win10也没啥用，就图一乐？  
-![200226_1](/im/200226_dumperror.png)  
+![200226_1](/img/200226_dumperror.png)  
 
 ## C++版本
 参考了这里的代码：[https://ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsass-passwords-without-mimikatz-minidumpwritedump-av-signature-bypass](https://ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsass-passwords-without-mimikatz-minidumpwritedump-av-signature-bypass)  
