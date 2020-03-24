@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:    技巧-获得一个system权限的cmd
-subtitle:   域内组策略有关学习
+subtitle:   通过token复制启动system权限cmd
 date:       2020-03-16
 author:     hmoytx
 header-img: img/bg_02.jpg
