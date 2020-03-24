@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:    Cobalt Strike 4.0-初体验
-subtitle:   域内组策略有关学习
+subtitle:   Cobalt Strike 4.0-初体验
 date:       2020-03-24
 author:     hmoytx
 header-img: img/bg_02.jpg
@@ -51,5 +51,5 @@ socat TCP4-LISTEN:2052,fork TCP4:cs ip:39666
 流量。  
 ![200324_7](/img/200324_wireshark.png)  
 同理https也是一样区别在于端口。  
-![200324_8](/img/200324_https.png)  
+![200324_8](/img/200324_https.jpg)  
 
