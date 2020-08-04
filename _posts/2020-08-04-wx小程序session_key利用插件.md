@@ -107,6 +107,6 @@ if __name__ == '__main__':
 项目地址:[https://github.com/hmoytx/bp_miniprogram_decrypt](https://github.com/hmoytx/bp_miniprogram_decrypt)  
 
 ## 参考
-![https://www.hackinn.com/index.php/archives/672/](https://www.hackinn.com/index.php/archives/672/)
+[https://www.hackinn.com/index.php/archives/672/](https://www.hackinn.com/index.php/archives/672/)
 
 
