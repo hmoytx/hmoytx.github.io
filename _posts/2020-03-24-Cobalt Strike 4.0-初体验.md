@@ -18,7 +18,7 @@ tags:
 修改端口，默认证书。  
 在teamserver中，找到server_port，将端口修改为其他端口。  
 证书中的dname修改成非默认的即可。也可以用文件夹内的keytool工具来修改。    
-![200324_1](/img/200324_tamserver.png)   
+![200324_1](/img/200324_teamserver.png)   
 
 ## Listener
 4.0中做了较大改动，进行了整合。对C2的攻击方式进行了优化，增加了代理选项。支持填写多个域名。    
