@@ -63,10 +63,12 @@ sid::add /sam:testc /new:administrator    #  这样也行
 对于同一个域树中的父子域来说，如果能获得子域中的高权限用户，就可以将该用户的SID赋予EA权限（519），这样对于父域也是高权限用户。假设我们已经拿下子域sub.de1ay.com的域控权限，即可以利用该方法在父域提权。需要的前提信息：
 - 子域的Krbtgt Hash 和 域SID  
 - 父域的SID  
+
+
 对比下黄金票据的条件：  
 ```
 mimikatz "kerberos::golden /domain:<domain> /sid:<SID> /krbtgt:krbtgt ntlm hash /user:<username> /ptt" exit  
-```    
+``` 
 只多了一个父域的SID，即sids。  
 先在子域的域控权限下获取krbtgt的NTLM hash。  
 ![4](/img/210217_krbtgt.png)    
