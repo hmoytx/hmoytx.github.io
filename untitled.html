@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+    <script type="text/javascript">
+        function foo(){
+            var xmlhttp=new XMLHttpRequest();
+	    	var url="https://minigame.uc.cn/api/cas/v1/getUserCookie";   //要跨域访问的资源
+            xmlhttp.open("POST",url,true);   
+			//xmlhttp.setRequestHeader('X-PINGOTHER','AAAA');     //自定义头部，如果这样的话，就属于非简单请求了
+			//xmlhttp.setRequestHeader('Content-Type','text/xml');   //自定义头部，如果这样的话，就属于非简单请求了
+            xmlhttp.send();
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("my").innerHTML=xmlhttp.responseText;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <button id="btn" οnclick="foo()">确定</button>
+    <p id="my">hello,word!</p>
+</body>
+</html> 
