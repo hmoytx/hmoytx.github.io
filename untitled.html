@@ -5,6 +5,7 @@
     <script type="text/javascript">
         function foo(){
             var xmlhttp=new XMLHttpRequest();
+		xmlhttp.withCredentials = true;
 	    	var url="https://minigame.uc.cn/api/cas/v1/getUserCookie";   //要跨域访问的资源
             xmlhttp.open("POST",url,true);   
 			//xmlhttp.setRequestHeader('X-PINGOTHER','AAAA');     //自定义头部，如果这样的话，就属于非简单请求了
