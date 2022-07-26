@@ -57,7 +57,7 @@ adb shell am start -a "android.intent.action.VIEW" -d "xxapp://webview"
 在Web中，任意URL跳转漏洞由于功能限制，一般都是低危。但在移动应用中，往往会在WebView通过js去调用java接口使功能更加丰富。  
 通过注解@JavascriptInterface，表示方法可以被js调用。  
 这里我写了一个Toast，执行会返回对应的信息。  
-![7](/img/220718_toast.png)       
+![7](/img/2201718_toast.png)       
 增加两行代码，开启js支持，绑定对象。  
 ```
 webView.getSettings().setJavaScriptEnabled(true);
