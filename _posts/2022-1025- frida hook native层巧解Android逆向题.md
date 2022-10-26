@@ -22,7 +22,7 @@ tags:
 ![2](/img/221025_javacode.png)   
 
 
-## firda hook java层
+## frida hook java层
 首先比较关心decode解密的数据是啥，直接hook一下，可以看到反射调用的是base64，那么后续传入比较的字符串就是base64处理过了，我们解出来的flag应该也是要base64解密一次。  
 看到还有一串“Hikari#a0344y3y#1930121”，应该是传入check的密钥。  
 ![3](/img/221025_fridahookdecode.png)   
@@ -37,7 +37,7 @@ tags:
 ![5](/img/221025_encryflag.png)   
 
 
-## Frida hook native
+## frida hook native
 记录下函数地址，关掉ida。  
 ![6](/img/221025_armcode.png)   
 直接上frida，先来hook一下这个函数，看看输入输出，这里从上面可以看到是arm指令后面计算函数地址不需要加1，打印下输入输出的内容。  
