@@ -10,7 +10,7 @@ tags:
     - CTF
     - 安卓逆向
 ---
-#  frida hook native层巧解Android逆向题
+#  frida inlinehook 巧解Android逆向题
 
 ## 前言
 最近又又又是老朋友发来一道Android逆向题，比赛时没做出来，后来参考了别人的思路，还是用frida解出了题目，学到一些思路记录下。  
