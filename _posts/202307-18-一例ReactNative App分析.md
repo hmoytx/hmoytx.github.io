@@ -26,7 +26,7 @@ tags:
 直接frida-dexdump一下，拖进工具看看java层代码，直接搜接口找了对应的接口。  
 ![3](/img/230718_interface.png)      
 找到对应的调用方法。  
-![4](/img/230718_sendcode.png)     
+![4](/img/2307018_sendcode.png)     
 我一开始直接对应的方法，没有输出，然后hook HashMap的put方法，发现也没有输出，这里卡了很久，后面记起来他UA是ok3，又hook了一下ok3,终于有输出了，打印了一下堆栈：  
 ![5](/img/230718_hook.png)  
 发现调用栈压根没有走过我之前测试hook的那些方法，打印出了一堆react相关的调用，这里开始意识到这个app是基于ReactNative开发的。  
