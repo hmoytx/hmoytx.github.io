@@ -161,7 +161,7 @@ extern "C" int JNICALL JNI_OnLoad(JavaVM* vm, void *resuerved){
 
 ## 查看hook结果
 运行app，查看logcat输出日志，首先是会有提示复制成功，架构类型等字样。  
-![4](/img/231228_logcat.png)   
+![4](/img/231228_logcat1.png)   
 进入hook后，打印出open的参数。  
 ![5](/img/231228_logcat2.png)   
 
